@@ -55,7 +55,7 @@ def read_key():
 if __name__ == '__main__':
     isTrackerInitialized = False
 
-    cap = cv.VideoCapture(1)
+    cap = cv.VideoCapture(0)
     if not cap.isOpened():
         print("Cannot open camera")
         exit()
